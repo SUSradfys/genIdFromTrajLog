@@ -10,6 +10,9 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# ignore a single file
+Settings.xml
+
 # ignore a file type
 *.xml
 
