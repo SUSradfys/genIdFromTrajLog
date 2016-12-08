@@ -33,7 +33,6 @@ namespace worker
             foreach (string mach in machine)
             { 
                 List<string> logs = getLogged(mach + subDir);
-                //logs = getLogged(logs, mach, subDir);
                 logged.AddRange(logs);
             }
 
